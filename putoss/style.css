@@ -1,0 +1,25 @@
+body {
+    background-image: url('fondoo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed
+}
+.header{
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.fotos{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
